@@ -1,0 +1,52 @@
+if we put r in front of our row string then it wont be handled in an especial way.
+
+* for example r'\tTAb' ; here \t will not give 8 characters space b/c of r
+
+*[specify the character you wanna match] -->[-.] either hypen or dot
+
+*[89]00 either 800 or 900
+
+*[1-5]--> range b/w 1 and 5  example 2[a-z] ex3 [a-zA-Z] either lower or upper
+*[^a-zA-z] it will not match upper case or lower letter
+*r[^b]at --> we dont want anything starting with b followed by at
+
+
+*r['\d{3}]   -> i wanna match 3 of these digits
+*(r'Mr\.?')
+*? 0 or one . in our example MR.Abdul MR Abdul. question mark will match both of them
+* s means space[A-Z]--> look for the space then any capital letter
+*\w --> any word character
+
+
+
+
+r[a-zA-Z0-9_]
+
+Semantics
+
+
+
+# ref table will be empty but its instance will be created
+# create table means creating array table
+# CT class table
+# main table
+# out or ref means by reference implement howa wa he / yani ya value get kr ke la raha he
+# cat means category
+# attr or func do alag cheezain hain is lya alag kr dya
+# attribute ka look up sirf name se hota he
+# function ka look up us ke parameter list ke sath hota he
+# pl is paramter list
+# cs means create scope and push it into stack after incrementing
+#opr is operator
+# current token value part N=   name
+#prnt is parent
+# ab ya grammer attributed kahlati he
+# category ya to sealed hougi abstract ya pr none
+
+
+
+
+
+
+
+

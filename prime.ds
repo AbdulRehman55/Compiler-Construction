@@ -1,0 +1,17 @@
+## code to check a prime number
+
+fun main():void{
+     int number=input("Enter a number");
+     if(isPrime(number)) println("Prime number");
+     else println("not a prime number");
+        }
+fun isPrime(int number):boolean{
+     boolean isPrime=true;
+     for(i in 2..number-1 step 1){
+         if(number%i==0){
+              isPrime=false;
+            }
+        }
+        yield isPrime;
+    }
+}

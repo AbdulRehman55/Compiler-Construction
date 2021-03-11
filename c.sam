@@ -1,0 +1,51 @@
+public class A{
+
+	public int a=10;
+	public fun a(char a,word b,word a):void{
+			for(i in 1..20){
+				if(a<b){
+				
+				}
+				else{
+
+				}
+			}
+	}
+}
+public class B extends A{
+	
+	private int i;
+	private float f=10.9;
+	fun b(int a,int b,float c):float{
+	int b=1;
+	until(a<f && a>c || b<f && true){
+		for(i in 100..10){
+			if(a<b){
+
+			}elif( true || false){
+
+			}else{
+
+			}
+		}
+	}
+
+}
+
+
+public class C extends B {
+	fun main():void{
+		int a=3,b=4,c=3;
+		int x=a*3+2-e+3-2*e+2;
+		do{
+
+		}until( true && false)
+	}
+	fun print(int a,float f,char c):int{
+	for(i in 1..100){
+			if (a>3)
+			{
+			}
+		}
+	}
+}

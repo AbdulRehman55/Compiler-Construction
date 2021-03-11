@@ -1,0 +1,10 @@
+fun main(){
+	
+	int number=10;
+
+	when(number){
+	1:{println("hello")}
+	2:{println("world")}
+	else:{println("1234")}
+	}
+}

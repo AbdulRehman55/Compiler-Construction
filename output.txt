@@ -1,0 +1,81 @@
+fun --- function --- 3
+main --- main --- 3
+( --- _ --- 3
+) --- _ --- 3
+: --- _ --- 3
+void --- void --- 3
+{ --- _ --- 3
+int --- Int_DT --- 4
+number --- Identifier --- 4
+= --- AOP --- 4
+input --- Identifier --- 4
+( --- _ --- 4
+"Enter a number" --- String Constant --- 4
+) --- _ --- 4
+; --- _ --- 4
+if --- if_branch_st --- 5
+( --- _ --- 5
+isPrime --- Identifier --- 5
+( --- _ --- 5
+number --- Identifier --- 5
+) --- _ --- 5
+) --- _ --- 5
+println --- print_st --- 5
+( --- _ --- 5
+"Prime number" --- String Constant --- 5
+) --- _ --- 5
+; --- _ --- 5
+else --- e_b_st --- 6
+println --- print_st --- 6
+( --- _ --- 6
+"not a prime number" --- String Constant --- 6
+) --- _ --- 6
+; --- _ --- 6
+} --- _ --- 7
+fun --- function --- 8
+isPrime --- Identifier --- 8
+( --- _ --- 8
+int --- Int_DT --- 8
+number --- Identifier --- 8
+) --- _ --- 8
+: --- _ --- 8
+boolean --- Boolean_DT --- 8
+{ --- _ --- 8
+boolean --- Boolean_DT --- 9
+isPrime --- Identifier --- 9
+= --- AOP --- 9
+true --- Boolean Constant --- 9
+; --- _ --- 9
+for --- f_loop --- 10
+( --- _ --- 10
+i --- Identifier --- 10
+in --- loop_in --- 10
+2 --- Integer Constant --- 10
+.. --- _ --- 10
+number --- Identifier --- 10
+- --- PM --- 10
+1 --- Integer Constant --- 10
+step --- loop_step --- 10
+1 --- Integer Constant --- 10
+) --- _ --- 10
+{ --- _ --- 10
+if --- if_branch_st --- 11
+( --- _ --- 11
+number --- Identifier --- 11
+% --- MDR --- 11
+i --- Identifier --- 11
+== --- ROP --- 11
+0 --- Integer Constant --- 11
+) --- _ --- 11
+{ --- _ --- 11
+isPrime --- Identifier --- 12
+= --- AOP --- 12
+false --- Boolean Constant --- 12
+; --- _ --- 12
+} --- _ --- 13
+} --- _ --- 14
+yield --- return_st --- 15
+isPrime --- Identifier --- 15
+; --- _ --- 15
+} --- _ --- 16
+} --- _ --- 17

@@ -1,0 +1,5 @@
+open command prompt
+
+type:
+python language.py -f "file to run" // complete path of file to run if exist in different dir
+
